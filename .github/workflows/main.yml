@@ -23,7 +23,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           # ⚠️ Docker Hub repo names must be lowercase
-          images: evarestigwe/node-js
+          images: evaresigwe/node-js
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
