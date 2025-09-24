@@ -37,5 +37,3 @@ jobs:
             docker stop node-app || true
             docker rm node-app || true
             docker run -d --name node-app -p 80:3000 evaresigwe/node-js:latest
-
-            
